@@ -43,9 +43,9 @@ npm run start
 ```
 ## Live Demo
 
-You can access a live demo of this application hosted on Vercel by visiting the following URL:
+You can access a live demo of this application hosted on Netlify by visiting the following URL:
 
-[User Management App - Live Demo](https://your-verbatim-url-here)
+[User Management App - Live Demo](https://64fe0ce6ef58144e8ea46e91--stellular-speculoos-3fb395.netlify.app/)
 
 Feel free to explore the live demo to see the application in action!
 
