@@ -1,7 +1,7 @@
-// UserForm.js
+
 import React, { useState } from 'react';
 import axios from 'axios';
-import './create.css'; // Import CSS for styling
+import './create.css'; 
 
 
 const Create = () => {

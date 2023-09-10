@@ -10,7 +10,7 @@ const Edit = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    // Fetch the list of users when the component mounts
+    
     axios.get('https://jsonplaceholder.typicode.com/users')
       .then((response) => {
         setUsers(response.data);
@@ -29,7 +29,7 @@ const Edit = () => {
   };
 
   const handleSaveClick = (updatedUserData) => {
-    // Update the user data on the frontend (in this example)
+    
     const updatedUsers = users.map((user) => {
       if (user.id === editingUserId) {
         return { ...user, ...updatedUserData };
